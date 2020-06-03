@@ -1,0 +1,17 @@
+.example-card {
+    padding: 0;
+    margin: 50px;
+    
+    }
+    mat-card img{
+        width: calc(100%);
+        margin:0;
+        margin-bottom: 16px;
+    }
+    
+    .mat-card-title {
+    margin-left: 20px;
+    }
+    .mat-card-subtitle {
+      margin-left: 20px;
+    }

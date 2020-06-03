@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "e-commerce-f9de5": {
+      "hosting": {
+        "oshop": [
+          "e-commerce-f9de5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "e-commerce-f9de5"
+  }
+}

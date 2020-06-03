@@ -1,0 +1,18 @@
+.example-card {
+padding: 0;
+align-self: center;
+width: 350px;
+max-height: 350px;
+}
+mat-card img{
+ margin-left: 0px;
+ right: 50px;
+ width: 350px; 
+}
+
+.mat-card-title {
+margin-left: 20px;
+}
+.mat-card-subtitle {
+  margin-left: 20px;
+}

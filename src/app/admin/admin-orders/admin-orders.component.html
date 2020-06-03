@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Customer</th>
+        <th scope="col">Date</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let o of orders$ | async">
+        <td>{{ o.shipping.name }}</td>
+        <td>{{ o.datePlaced | date}}</td>
+        <a routerLink="/orders/">View</a>
+      </tr>
+    </tbody>
+  </table>
